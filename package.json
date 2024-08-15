@@ -1,0 +1,26 @@
+{
+  "name": "logo-creator",
+  "version": "1.0.0",
+  "description": "A Node.js command-line application that takes in user input to generate a logo and save it as an SVG file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMRobertson89/Logo-Creator.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Josh Robertson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JMRobertson89/Logo-Creator/issues"
+  },
+  "homepage": "https://github.com/JMRobertson89/Logo-Creator#readme",
+  "dependencies": {
+    "inquirer": "^10.1.8",
+    "jest": "^29.7.0"
+  }
+}
