@@ -4,7 +4,7 @@
   "description": "A Node.js command-line application that takes in user input to generate a logo and save it as an SVG file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/JMRobertson89/Logo-Creator#readme",
   "dependencies": {
-    "inquirer": "^10.1.8",
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
